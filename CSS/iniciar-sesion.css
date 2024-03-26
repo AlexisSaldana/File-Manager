@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body{
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(90deg, rgba(115,226,255,1) 30%, rgba(24,93,227,1) 56%, rgba(9,43,121,1) 79%);
+}
+
+.inicio-sesion{
+    background: #fff;
+    position: absolute;
+    padding: 50px;
+    border-radius: 10px;
+    transition: .3s ease;
+    box-shadow: 0 0 10px rgba(1, 77, 255, .5); 
+}
+
+.inicio-sesion:hover{
+    transform: scale(1.01);
+}
+
+.inicio-sesion img {
+    width: 25px;
+    cursor: pointer;
+}
+
+.inicio-sesion form input{
+    width: 250px;
+    height: 40px;
+    padding-inline: 10px;
+    margin: 20px 0;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+.inicio-sesion .boton-enviar{
+    border: 1px solid #ccc;
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    transition: .5s;
+    text-align: center;
+    justify-content: center;
+}
+
+.inicio-sesion form .boton-enviar:hover{
+    background-color: #327dce;
+}

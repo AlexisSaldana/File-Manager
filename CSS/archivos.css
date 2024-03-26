@@ -1,0 +1,51 @@
+body{
+    background: linear-gradient(90deg, rgba(115,226,255,1) 30%, rgba(24,93,227,1) 56%, rgba(9,43,121,1) 79%);
+}
+
+.contenedor-archivos{
+    display: grid;
+    text-align: center;
+}
+
+.contenedor-archivos form img{
+    width: 24px;
+    cursor: pointer;
+}
+
+.contenedor-archivos form button{
+    background: none;
+    border: none;
+}
+
+.contenedor-archivos form .subir-btn img{
+    width: 32px;
+    cursor: pointer;
+}
+
+#nombreArchivo {
+    border-radius: 10px;
+    padding-left: 5px;
+    border: 0;
+}
+
+table {
+    background-color: #fff;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+th, td {
+    padding: 8px;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+.form-subir{
+    font-weight: 700;
+}
